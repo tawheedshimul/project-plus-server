@@ -3,7 +3,6 @@ const app = express();
 const cors = require('cors');
 const jwt = require('jsonwebtoken')
 const port = process.env.PORT || 5000;
-require('dotenv').config()
 
 const secretKey = 'a060f61829e9396d0765331d5191c3ceb7832f80d14701905123d81cf9919357685f8e9ce159ef8f0846e71731508165c42a890e2d9b7b93e286751a67c80e3b';
 
